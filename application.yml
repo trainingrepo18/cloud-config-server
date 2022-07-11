@@ -11,10 +11,10 @@ microservice:
   order-service:
    endpoints:
     endpoint:
-      uri= http://ORDER-SERVICE/order/bookOrder 
+      uri= http://http://localhost:8181/order/bookOrder 
       
   payment-service:
     endpoints:
      endpoint:
-            uri= http://PAYMENT_SERVICE/payment/doPayment     
+            uri= http://localhost:8282/payment/doPayment    
 
